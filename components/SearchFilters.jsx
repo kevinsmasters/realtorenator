@@ -39,7 +39,6 @@ const SearchFilters = () => {
                 setLoading(false);
                 setLocationData(data?.hits);
             }
-
             fetchData();
         }
     }, [searchTerm]);
